@@ -45,7 +45,7 @@ Introducing our new Pig Game website, an exciting and interactive platform for e
 
 ## 🚀 Technologies
 
-Technologies that I used to develop the frontend and backend
+Technologies that I used to develop the game:
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
