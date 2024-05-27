@@ -35,7 +35,7 @@
 </h1>
   <button>
     <a href="https://atthmew.github.io/pig-game/"> 
-      <img alt="Project Top Language" src="https://img.shields.io/badge/Pig Game-white?style=for-the-badge&logo=Play Here&label=YouTube&labelColor=red"/>
+      <img alt="Project Top Language" src="https://img.shields.io/badge/Pig Game-white?style=for-the-badge&logo=YouTube&label=PlayHere&labelColor=red"/>
     </a>
   </button>
 </p>
