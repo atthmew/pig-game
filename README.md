@@ -34,8 +34,8 @@
 <br/>
 </h1>
   <button>
-    <a href="https://youtu.be/gtjocsYOeMc"> 
-      <img alt="Project Top Language" src="https://img.shields.io/badge/Barangay System Demo-white?style=for-the-badge&logo=YouTube&label=YouTube&labelColor=red"/>
+    <a href="https://atthmew.github.io/pig-game/"> 
+      <img alt="Project Top Language" src="https://img.shields.io/badge/Pig Game-white?style=for-the-badge&label=Play Here:&labelColor=black"/>
     </a>
   </button>
 </p>
