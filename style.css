@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(to top left, #3cb0b0 0%, #2ebf91 100%);
+  height: 100vh;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.openingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 80%;
+  /* background-color: white; */
+  text-transform: uppercase;
+  font-family: "Press Start 2P", sans-serif;
+}
+.openingContainer .openingTitle {
+  position: absolute;
+  top: 35%;
+  font-size: 7rem;
+}
+.openingContainer .developer {
+  position: absolute;
+  top: 55%;
+  font-size: 2rem;
+}
+.openingContainer .start {
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  bottom: 32%;
+  font-family: "Press Start 2P", sans-serif;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.parentContainer {
+  height: 100vh;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  transition: all 0.5s linear;
+}
+
+.scoreContainer {
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 15rem;
+  width: 20rem;
+  padding-top: 80px;
+  color: #008b8b;
+  transition: width 0.35s ease-in-out;
+  font-family: "Press Start 2P", sans-serif;
+}
+.scoreName {
+  text-transform: uppercase;
+}
+.p0 {
+  margin-bottom: 20px;
+}
+/* .spaceContainer:active {
+  width: 20rem;
+} */
+
+.mainContainer {
+  position: absolute;
+  display: flex;
+  width: 75rem;
+  height: 43rem;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.mainContainer .player0 {
+  flex: 50%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  transition: 1s all;
+}
+
+.mainContainer .player1 {
+  flex: 50%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  transition: 1s all;
+}
+
+.mainContainer .active-player {
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.mainContainer .name {
+  position: absolute;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  top: 15%;
+}
+
+.mainContainer .score {
+  position: absolute;
+  font-size: 4rem;
+  color: #008b8b;
+  top: 30%;
+}
+
+.mainContainer .currentContainer1 {
+  position: absolute;
+  bottom: 20%;
+  background-color: #008b8b;
+  width: 220px;
+  height: 130px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #dddddd;
+  text-align: center;
+}
+.mainContainer .currentContainer2 {
+  position: absolute;
+  bottom: 20%;
+  background-color: #008b8b;
+  width: 220px;
+  height: 130px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #dddddd;
+  text-align: center;
+}
+
+.currentTitle {
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.currentScore {
+  font-size: 3rem;
+  color: #dddddd;
+  font-weight: bolder;
+}
+
+.dice {
+  position: absolute;
+  height: 7rem;
+  top: 30%;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.btn {
+  font-size: 1.3rem;
+  background: none;
+  cursor: pointer;
+  top: 10%;
+  padding: 10px;
+  border: none;
+  width: 200px;
+  background-color: rgb(176, 238, 239);
+  border-radius: 40px;
+  color: rgb(91, 91, 91);
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.newGame {
+  position: absolute;
+  top: 10%;
+}
+.rollDice {
+  position: absolute;
+  top: 63%;
+}
+.hold {
+  position: absolute;
+  top: 73%;
+}
+
+.btn:active {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(3px);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn::first-letter {
+  font-size: 1.4rem;
+  display: inline-block;
+  margin-right: 0.7rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.mainContainer .winner {
+  background-color: #2f2f2f;
+}
+
+.mainContainer .winner .name {
+  color: #008b8b;
+}
+
+.playAgain {
+  position: absolute;
+  top: 24%;
+  left: 22%;
+  width: 60%;
+  height: 50%;
+  border-radius: 10px;
+  padding: 50px;
+  padding-top: 65px;
+  padding-left: 60px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-transform: uppercase;
+  font-family: "Press Start 2P", sans-serif;
+  text-align: center;
+  color: #008b8b;
+  z-index: 10;
+}
+.playAgain h1 {
+  position: absolute;
+  top: 30%;
+  font-size: 3rem;
+}
+
+.playAgain button {
+  font-size: 1.5rem;
+  margin-top: 240px;
+  border: none;
+  background: none;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-family: "Press Start 2P", sans-serif;
+  cursor: pointer;
+  color: #008b8b;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}

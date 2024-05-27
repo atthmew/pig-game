@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Pig Game</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="openingContainer">
+			<h1 class="openingTitle">Pig Game</h1>
+			<h3 class="developer">Made by: Raven</h3>
+			<button class="start">Click here to Play</button>
+		</div>
+
+		<div class="parentContainer hidden">
+			<div class="scoreContainer hidden">
+				<h1 class="scoreName p0">Player 1: <span class="p0Score">0</span></h1>
+				<h1 class="scoreName p1">Player 2: <span class="p1Score">0</span></h1>
+			</div>
+			<div class="mainContainer">
+				<div class="player0 active-player">
+					<div class="name">Player 1</div>
+					<div class="score" id="player0-score">23</div>
+					<div class="currentContainer1">
+						<div class="currentTitle">Current</div>
+						<div class="currentScore" id="player0-currentScore">0</div>
+					</div>
+				</div>
+				<div class="player1">
+					<div class="name">Player 2</div>
+					<div class="score" id="player1-score">23</div>
+					<div class="currentContainer2">
+						<div class="currentTitle">Current</div>
+						<div class="currentScore" id="player1-currentScore">0</div>
+					</div>
+				</div>
+				<img src="dice-1.png" alt="" class="dice" />
+				<button class="btn newGame">🔁 New Game</button>
+				<button class="btn rollDice">🎲 Roll Dice</button>
+				<button class="btn hold">📩 Hold</button>
+			</div>
+		</div>
+
+		<div class="playAgain hidden">
+			<!-- <h1>Player <span class="playerWinner">1</span>Wins</h1> -->
+			<h1>Do you want to play again?</h1>
+			<button class="playAgainBtn yes">Yes</button>
+			<button class="playAgainBtn goToMainMenu">Go to Main Menu</button>
+		</div>
+		<div class="overlay hidden"></div>
+		<script src="script.js"></script>
+	</body>
+</html>
