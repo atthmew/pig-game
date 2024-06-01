@@ -41,7 +41,7 @@
 </p>
 
 <p>
-Introducing Pig Game website, an exciting and interactive platform for enjoying the classic dice game, Pig. In Pig, players take turns rolling a die as many times as they wish, accumulating points. However, if a player rolls a 1, their turn ends, and they lose all points gathered during that turn. Players can choose to "hold" their score at any time, adding their current turn's points to their total score and passing the die to the next player. The first player to reach a predetermined score wins the game. Our Pig Game website, built using HTML, CSS, and JavaScript, offers a smooth and engaging gaming experience, bringing this timeless game to life in a modern, user-friendly interface. Play now and challenge your friends to see who can reach the winning score first!</p>
+Introducing, Pig Game, an exciting and interactive platform for enjoying the classic dice game, Pig. In Pig, players take turns rolling a die as many times as they wish, accumulating points. However, if a player rolls a 1, their turn ends, and they lose all points gathered during that turn. Players can choose to "hold" their score at any time, adding their current turn's points to their total score and passing the die to the next player. The first player to reach a predetermined score wins the game. Our Pig Game website, built using HTML, CSS, and JavaScript, offers a smooth and engaging gaming experience, bringing this timeless game to life in a modern, user-friendly interface. Play now and challenge your friends to see who can reach the winning score first!</p>
 
 ## 🚀 Technologies
 
